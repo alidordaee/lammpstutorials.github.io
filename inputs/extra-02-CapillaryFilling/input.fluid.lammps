@@ -22,6 +22,7 @@ dump 		mydmp all atom 1000 dump.fluid.lammpstrj
 
 thermo		100
 minimize	1.0e-4 1.0e-6 1000 10000
+undump    mydmp
 reset_timestep	0
 
 thermo		1000
